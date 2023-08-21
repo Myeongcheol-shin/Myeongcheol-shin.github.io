@@ -64366,7 +64366,7 @@ l=J.aC(n)
 j=o?"\ud83d\ude80 Correct \n  Correct Answer : "+j.bz(l.j(n,m).e):"\u274c Wrong \n Correct Answer : "+j.bz(l.j(n,m).e)}j=A.h1(j,k,k,k,A.mQ(k,k,s.y?B.W:B.k,k,k,k,k,k,k,k,k,16,k,k,B.T,k,k,!0,k,k,k,k,k,k,k,k),B.ca,k)
 o=window.navigator.userAgent
 o.toString
-o=B.d.u(o,"Mobile")?1.6666666666666667:5
+o=B.d.u(o,"Mobile")?2.5:5
 n=s.r.length
 m=B.iu
 if(!s.y)l=!s.at?A.abI(B.LA,new A.a51(s)):A.abI(B.LK,new A.a52(s,a))
