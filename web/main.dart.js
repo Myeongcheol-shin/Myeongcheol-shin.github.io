@@ -64251,7 +64251,7 @@ p=A.e1(m,!1,s).b
 m=n.c
 m.toString
 o="?amount="+A.e1(m,!1,s).e
-if(p!=="0")o+="&category"+(A.hj(p,null)+8)
+if(p!=="0")o+="&category="+(A.hj(p,null)+8)
 if(q!=="Any Difficulty")o+="&difficulty="+q.toLowerCase()
 if(r==="Multiple Choice")o+="&type=multiple"
 else if(r==="True False")o+="&type=boolean"
