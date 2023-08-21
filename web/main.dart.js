@@ -64156,7 +64156,7 @@ p=A.e1(m,!1,s).b
 m=n.c
 m.toString
 o="?amount="+A.e1(m,!1,s).e
-if(p!=="0")o+="&category"+(A.hj(p,null)+8)
+if(p!=="0")o+="&category="+(A.hj(p,null)+8)
 if(q!=="Any Difficulty")o+="&difficulty="+q.toLowerCase()
 if(r==="Multiple Choice")o+="&type=multiple"
 else if(r==="True False")o+="&type=boolean"
@@ -64335,7 +64335,7 @@ if(r){r=o.a
 q=r==null
 if(!q){p=r.d
 p.toString
-p.e=A.c4(0,0,15)}s.toString
+p.e=A.c4(0,0,30)}s.toString
 if(!q){s=r.d
 if(s!=null)s.p6(0,1)}o.c=!0}},
 $S:0}
@@ -64368,7 +64368,7 @@ o=s.r.length
 n=B.iu
 if(!s.y)m=!s.at?A.abI(B.LA,new A.a51(s)):A.abI(B.LK,new A.a52(s,a))
 else m=B.Hz
-return A.R9(A.a([new A.eA(B.f3,k,k,q,k),r,p,B.Hy,new A.r8(B.yG,B.e_,B.i,B.jz,new A.a53(s),15,0,150,150,10,B.HM,B.Kv,"s",!0,s.ay,k),B.hW,j,B.hW,new A.Cw(new A.a0k(2,5),new A.a0g(new A.a54(s),o,!0,!0,!0,k),B.cx,B.bI,!1,k,k,n,!0,k,o,B.aQ,B.uf,k,B.a9,k),m,B.hW],t.E),B.aT,B.aU)}return B.ya},
+return A.R9(A.a([new A.eA(B.f3,k,k,q,k),r,p,B.Hy,new A.r8(B.yG,B.e_,B.i,B.jz,new A.a53(s),30,0,150,150,10,B.HM,B.Kv,"s",!0,s.ay,k),B.hW,j,B.hW,new A.Cw(new A.a0k(2,5),new A.a0g(new A.a54(s),o,!0,!0,!0,k),B.cx,B.bI,!1,k,k,n,!0,k,o,B.aQ,B.uf,k,B.a9,k),m,B.hW],t.E),B.aT,B.aU)}return B.ya},
 $S:395}
 A.a50.prototype={
 $1(a){return J.dt(a)},
