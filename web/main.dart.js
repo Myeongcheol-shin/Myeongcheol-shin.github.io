@@ -64156,7 +64156,7 @@ p=A.e1(m,!1,s).b
 m=n.c
 m.toString
 o="?amount="+A.e1(m,!1,s).e
-if(p!=="0")o+="&category="+(A.hj(p,null)+8)
+if(p!=="0")o+="&category"+(A.hj(p,null)+8)
 if(q!=="Any Difficulty")o+="&difficulty="+q.toLowerCase()
 if(r==="Multiple Choice")o+="&type=multiple"
 else if(r==="True False")o+="&type=boolean"
@@ -64364,11 +64364,14 @@ n=s.x
 m=s.e
 l=J.aC(n)
 j=o?"\ud83d\ude80 Correct \n  Correct Answer : "+j.bz(l.j(n,m).e):"\u274c Wrong \n Correct Answer : "+j.bz(l.j(n,m).e)}j=A.h1(j,k,k,k,A.mQ(k,k,s.y?B.W:B.k,k,k,k,k,k,k,k,k,16,k,k,B.T,k,k,!0,k,k,k,k,k,k,k,k),B.ca,k)
-o=s.r.length
-n=B.iu
-if(!s.y)m=!s.at?A.abI(B.LA,new A.a51(s)):A.abI(B.LK,new A.a52(s,a))
-else m=B.Hz
-return A.R9(A.a([new A.eA(B.f3,k,k,q,k),r,p,B.Hy,new A.r8(B.yG,B.e_,B.i,B.jz,new A.a53(s),30,0,150,150,10,B.HM,B.Kv,"s",!0,s.ay,k),B.hW,j,B.hW,new A.Cw(new A.a0k(2,5),new A.a0g(new A.a54(s),o,!0,!0,!0,k),B.cx,B.bI,!1,k,k,n,!0,k,o,B.aQ,B.uf,k,B.a9,k),m,B.hW],t.E),B.aT,B.aU)}return B.ya},
+o=window.navigator.userAgent
+o.toString
+o=B.d.u(o,"Mobile")?1.6666666666666667:5
+n=s.r.length
+m=B.iu
+if(!s.y)l=!s.at?A.abI(B.LA,new A.a51(s)):A.abI(B.LK,new A.a52(s,a))
+else l=B.Hz
+return A.R9(A.a([new A.eA(B.f3,k,k,q,k),r,p,B.Hy,new A.r8(B.yG,B.e_,B.i,B.jz,new A.a53(s),30,0,150,150,10,B.HM,B.Kv,"s",!0,s.ay,k),B.hW,j,B.hW,new A.Cw(new A.a0k(2,o),new A.a0g(new A.a54(s),n,!0,!0,!0,k),B.cx,B.bI,!1,k,k,m,!0,k,n,B.aQ,B.uf,k,B.a9,k),l,B.hW],t.E),B.aT,B.aU)}return B.ya},
 $S:395}
 A.a50.prototype={
 $1(a){return J.dt(a)},
